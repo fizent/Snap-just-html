@@ -1,0 +1,344 @@
+:root {
+  --color-start: #fff;
+  --color-p: #888686;
+  --color-head: rgb(64, 64, 64);
+  --color-background: #21aa58;
+  --color-middle: #f2f5f8;
+
+
+}
+
+
+.nav {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.575);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.a-nav {
+  color: var(--color-head);
+  font-size: 17px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.box-header {
+  background-color: var(--color-background);
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-content:center ;
+  line-height: 1.5;
+  font-family: IRANSansMobile-fa, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  
+}
+
+.img-header {
+  background-image: url(https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg);
+  background-position: center center;
+  transform: scaleX(-1);
+  min-height: 46vh;
+  background-size: cover;
+  flex: 1;
+  margin-right: 30px;
+}
+
+.text-start {
+  padding-right: 150px;
+  text-align: end;
+  color: var(--color-start);
+  flex: 1;
+}
+
+.input {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-decoration: wrap-reverse;
+  line-height: 5;
+  
+}
+
+.a-send-link {
+  font-size: 12px;
+  padding: 13px;
+  color: #21aa58;
+  text-decoration: none;
+  background-color: var(--color-start);
+  border: 0px solid white;
+  border-radius: 18px;
+  transition: transform 0.5s;
+}
+
+.a-send-link:hover {
+  transform: scale(1.1);
+}
+
+.input-at-app {
+  color: var(--color-start);
+  text-decoration: none;
+  padding: 10px 35px;
+  background-color: rgba(255, 254, 254, 0);
+  border: 2px solid white;
+  transition: transform 0.5s;
+}
+
+
+
+.container-shop {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.img-shop {
+  width: 135px;
+  height: 47px;
+}
+
+
+.box-middle {
+  background-color: var(--color-middle);
+}
+
+.h2-middle {
+  display: flex;
+  justify-content: center;
+  color: var(--color-head);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
+
+}
+
+.container-snap1 {
+  display: flex;
+  justify-content: center;
+  text-align: end;
+}
+
+.box-snap-middle {
+  background-color: var(--color-start);
+  margin: 20px;
+  flex: 1;
+  border-radius: 18px;
+}
+
+.span-logo-h3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.p-taxi {
+  padding-right: 30px;
+}
+
+ 
+h3 {
+  font-size: 15px;
+  
+}
+
+.p-taxi {
+  font-size: 13px;
+}
+
+.taxi-logo {
+  justify-content: flex-end;
+  width: 50px;
+  height: 50px;
+}
+
+.t-span {
+  align-items: start;
+}
+
+.sabad-middle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.img-buy-sabad {
+  width: 75%;                  
+  border-radius: 18px;
+}
+
+/* جور دیگه نمی تونستم اون اندازه خوب رو بدم برای همین مجبور شدم از % استفاده کنم راه دیگه ای هست ؟ */
+
+.container-man-app {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+.man-app-image {
+  background-image: url(./img/mobile2.png);
+  flex: 1;
+  background-size: cover;
+  height: 480px;
+
+}
+
+.text-man-app {
+  flex: 1;
+  font-size: 14.12px;
+  text-align: end;
+  padding-right: 10px;
+  padding-left: max(140px,15%);
+}
+
+.h2-man-app {
+  color: var(--color-head);
+}
+
+.p-man-app {
+  color: var(--color-p);
+}
+
+
+.container-three-man-app {
+  display: flex;
+  text-align: end;
+  justify-content: center;
+  padding-left: max(140px,15%);
+  padding-right: max(140px,15%);
+  margin-top: -26px;
+}
+
+.three {
+  background-color: var(--color-middle);
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.img-logo-snap {
+  padding-bottom: 5px;
+}
+
+.h3-around-man-app {
+  padding-left: 50px;
+  padding-right: 50px;
+  color: var(--color-head);
+  font-size: 19px;
+}
+
+.p-around-man-app {
+  padding-left: 50px;
+  padding-right: 50px;
+  color: var(--color-p);
+  font-size: 13px;
+}
+
+
+.more-about-snap {
+  background-color: var(--color-middle);
+}
+
+.h2-more {
+  display: flex;
+  justify-content: center;
+  color: var(--color-head);
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.p-more {
+  display: flex;
+  justify-content: center;
+  color: var(--color-p);
+}
+
+.a-more {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.saptname {
+  padding: 14px;
+  background-color: var(--color-background);
+  color: var(--color-start);
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform 0.5s;
+}
+
+.saptname:hover {
+  transform: scale(1.1);
+}
+
+.span-video {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 62%;
+}
+
+
+
+
+.container-box-more{
+  display: flex;
+  padding: 10px 30px;
+}
+
+.box-more {
+  background-color: var(--color-start);
+  text-align: end;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 18px;
+}
+
+.img-h3-more {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+.p-end-more {
+  line-height: 1.5;
+}
+
+.img-more {
+  width: 100px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.a-footer {
+  color: var(--color-head);
+  font-size: 17px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
